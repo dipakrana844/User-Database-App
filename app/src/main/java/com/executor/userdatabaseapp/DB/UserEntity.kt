@@ -1,6 +1,5 @@
 package com.executor.userdatabaseapp.DB
 
-import android.graphics.Bitmap
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.util.*
@@ -9,10 +8,11 @@ import java.util.*
 data class UserEntity(
     @PrimaryKey(autoGenerate = true)
     val id: Int,
-    val image: ByteArray,
+    val image: String,
     val fName: String,
     val lName: String,
     val dob: String,
-    val number: Int,
+    val age: Int = 0,
+    val number: Long,
     val createDate: Date,
 )

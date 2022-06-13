@@ -10,6 +10,7 @@ import kotlinx.coroutines.launch
 class UserViewModel(application: Application) : AndroidViewModel(application) {
 
     val getAllUser: LiveData<List<UserEntity>>
+
     private val repository: UserRepository
 
     init {
@@ -24,7 +25,7 @@ class UserViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
-    fun updateUser(user: UserEntity) {
+    fun updateUser(user: UserEntity){
         viewModelScope.launch(Dispatchers.IO) {
             repository.updateUser(user)
         }

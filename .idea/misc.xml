@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dipak Rana/AndroidStudioProjects/User-Database-App/app/src/main/res/layout/activity_main.xml" value="0.203125" />
+        <entry key="..\:/Users/Dipak Rana/AndroidStudioProjects/User-Database-App/app/src/main/res/layout/activity_update.xml" value="0.203125" />
+        <entry key="..\:/Users/Dipak Rana/AndroidStudioProjects/User-Database-App/app/src/main/res/layout/activity_user_detail.xml" value="0.203125" />
+        <entry key="..\:/Users/Dipak Rana/AndroidStudioProjects/User-Database-App/app/src/main/res/layout/row_contact.xml" value="0.18" />
         <entry key="..\:/Users/dipak.rana/AndroidStudioProjects/UserDatabaseApp/app/src/main/res/drawable-v24/person_icon.xml" value="0.3494791666666667" />
         <entry key="..\:/Users/dipak.rana/AndroidStudioProjects/UserDatabaseApp/app/src/main/res/drawable/add_view.xml" value="0.3536458333333333" />
         <entry key="..\:/Users/dipak.rana/AndroidStudioProjects/UserDatabaseApp/app/src/main/res/drawable/delete_icon.xml" value="0.3536458333333333" />

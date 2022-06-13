@@ -1,4 +1,4 @@
-package com.executor.userdatabaseapp
+package com.executor.userdatabaseapp.DB
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
